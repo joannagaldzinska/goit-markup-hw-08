@@ -911,6 +911,9 @@ textarea {
     padding-top: 26px;
     padding-bottom: 26px;
   }
+  .header-contacts-list {
+    align-items: flex-start;
+  }
   .menu-button {
     display: none;
   }
