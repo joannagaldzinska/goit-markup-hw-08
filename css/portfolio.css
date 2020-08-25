@@ -854,11 +854,12 @@ textarea {
     display: none;
   }
   .icon-burger {
-    transition-property: color;
+    transition-property: fill;
     transition: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
-  .icon-burger:hover, .icon-burger:focus {
+  .menu-button:hover .icon-burger,
+  .menu-button:focus .icon-burger {
     fill: #2196f3;
   }
   .menu-wrapper {
