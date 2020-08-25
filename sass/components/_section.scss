@@ -1,0 +1,21 @@
+.section-title {
+  color: $black-title-color;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.7;
+
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.portfolio {
+  @media screen and (max-width: 1199px) {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    padding-top: 93px;
+    padding-bottom: 94px;
+  }
+}
