@@ -62,9 +62,10 @@
     }
   }
 
-  .header-contacts-item {
+  .header-contacts-item a{
     display: flex;
-  }
+    align-items: center;
+   }
 }
 
 .header-contacts-item a:hover .contact-icon,

@@ -803,8 +803,9 @@ textarea {
   color: #2196f3;
 }
 
-.header-contacts-list .header-contacts-item {
+.header-contacts-list .header-contacts-item a {
   display: flex;
+  align-items: center;
 }
 
 .header-contacts-item a:hover .contact-icon,
