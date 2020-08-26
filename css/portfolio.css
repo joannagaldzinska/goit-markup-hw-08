@@ -929,7 +929,7 @@ textarea {
     margin-bottom: 10px;
   }
   .active-page::after {
-    bottom: -41px;
+    bottom: -38px;
   }
 }
 
