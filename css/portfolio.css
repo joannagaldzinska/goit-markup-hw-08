@@ -844,12 +844,9 @@ textarea {
   }
   .menu-button.is-open .icon-close {
     display: block;
-    transition-property: color;
+    transition-property: fill;
     transition: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  .menu-button.is-open .icon-close:hover, .menu-button.is-open .icon-close:focus {
-    fill: #2196f3;
   }
   .icon-close {
     display: none;
@@ -861,6 +858,10 @@ textarea {
   }
   .menu-button:hover .icon-burger,
   .menu-button:focus .icon-burger {
+    fill: #2196f3;
+  }
+  .menu-button:hover .icon-close,
+  .menu-button:focus .icon-close {
     fill: #2196f3;
   }
   .menu-wrapper {

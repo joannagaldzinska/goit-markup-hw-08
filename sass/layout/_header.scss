@@ -109,14 +109,9 @@
 
       .icon-close {
         display: block;
-        transition-property: color;
+        transition-property: fill;
         transition: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
-        &:hover,
-        &:focus {
-          fill: $additional-color;
-        }
       }
     }
   }
@@ -133,6 +128,11 @@
 
   .menu-button:hover .icon-burger,
   .menu-button:focus .icon-burger {
+    fill: $additional-color;
+  }
+
+  .menu-button:hover .icon-close,
+  .menu-button:focus .icon-close {
     fill: $additional-color;
   }
 
